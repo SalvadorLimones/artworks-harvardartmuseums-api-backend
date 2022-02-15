@@ -1,0 +1,44 @@
+[
+    {   
+        "id": 1,    
+        "userMame": "Peter Jackson", 
+        "savedPictures": [
+            {
+                "pictureID": 2323,
+                "mégValami": "????"
+            },
+            {
+                "pictureID": 2324,
+                "mégValami": "????"
+            }
+        ]
+    },
+    {   
+        "id": 2,    
+        "userMame": "Jhon Jackson", 
+        "savedPictures": [
+            {
+                "pictureID": 2543,
+                "mégValami": "????"
+            },
+            {
+                "pictureID": 2544,
+                "mégValami": "????"
+            }
+        ]
+    },
+    {   
+        "id": 3,    
+        "userMame": "Jack Jackson", 
+        "savedPictures": [
+            {
+                "pictureID": 2453,
+                "mégValami": "????"
+            },
+            {
+                "pictureID": 2454,
+                "mégValami": "????"
+            }
+        ]
+    }
+]

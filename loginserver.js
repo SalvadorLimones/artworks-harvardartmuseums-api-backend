@@ -107,6 +107,53 @@ app.post("/api/user/login", (req, res) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.post("/api/picture/save", (req, res) => {
+  const authHeader = req.header("Authorization");
+  if (!authHeader) return res.sendStatus(401);
+
+  const credentials = authHeader.split("&&&");
+  const username = credentials[0];
+  const password = credentials[1];
+  let user = users.find(
+    (user) => username === user.username && password === user.password
+  );
+
+  console.log(user);
+  if (!user) return res.sendStatus(401);
+
+   if(!req.body.data ) {
+    return res.sendStatus(400);
+  } 
+ 
+  user.images.push(req.body.data); 
+/*   users.push(newUser); */
+  fs.writeFileSync('./users.json', JSON.stringify(users) );
+  res.sendStatus(200);
+
+
+  return res.sendStatus(200);
+});
+
+
+
+
+
+
+
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });

@@ -34,6 +34,37 @@
                         "worktype": "painting"
                     }
                 ]
+            },
+            {
+                "lastupdate": "2022-02-18T05:25:58-0500",
+                "title": "The Gare Saint-Lazare: Arrival of a Train",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "French",
+                "dated": "1877",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "83 x 101.3 cm (32 11/16 x 39 7/8 in.)\r\nframed: 110.3 x 127.5 x 9.5 cm (43 7/16 x 50 3/16 x 3 3/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": null,
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231456_dynmc",
+                        "alttext": "Dramatic painting of two locomotives spewing steam at the entrance of a glass roof station.",
+                        "description": "As a train caboose exits on the left, a large black locomotive on the right arrives spewing large puffs of steam that swirl around under the peaked glass roof. A conductor wearing blue uniform and cap stands in the foreground near center, two others step away from the left train near an unoccupied track that curves toward the center of earth-like foreground. Primarily painted in cool blue colors with textured brushstrokes, large city buildings are suggested in the background. People dot the platform on the left. The painting is signed in black in the lower left.",
+                        "technique": null
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Claude Monet"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ]
             }
         ]
     },

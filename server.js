@@ -77,13 +77,7 @@ app.listen(port, () => {
 
 
 
-    
-    /* app.get('/api/mails/:userid', (req, res) => {
-      const id = Number(req.params.userid);
-      mails.map((mail) => {
-        if(mail.id === id) {res.json(mail)};
-      })
-    }) */
+   
   
   
   

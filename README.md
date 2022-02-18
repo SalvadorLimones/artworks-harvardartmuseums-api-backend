@@ -21,20 +21,6 @@ localhost:3101/api/users/email/:email  -----   Kikeresi a küldött email címet
 
 
 
-# Data Server
-
-server.js                      Elérés  -----  localhost:3100
-data.json - ből szedi az adatokat
-
-----------szerkezete még átbeszélésre vár !!!!!!!!!!!-------------
-
-Lekérdezések:
-
-localhost:3100                         -----   Metropolitan artwork API Data Server
-
-localhost:3100/api/userDatas           -----   Összes user mentett adatát adja vissza
-
-locahost:3100/api/byUserId/:userid     -----   Egy adott ID-ű user mentett adatait adja vissza
 
 
 

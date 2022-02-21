@@ -114,6 +114,57 @@ app.post("/api/picture/save", (req, res) => {
 
 
 
+app.post("/api/picture/delete", (req, res) => {
+  const authHeader = req.header("Authorization");
+  if (!authHeader) return res.sendStatus(401);
+
+  const credentials = authHeader.split("&&&");
+  const username = credentials[0];
+  const password = credentials[1];
+  let userIndex = users.findIndex(
+    (user) => username === user.username && password === user.password
+  );
+  let user = users.find(
+    (user) => username === user.username && password === user.password
+  );
+
+
+
+  if (!user) return res.sendStatus(401);
+ 
+
+  if (!req.body.data) {
+    return res.sendStatus(400);
+  }
+
+  const pic = user.images.find(
+    (pic) => pic.objectnumber === req.body.data
+  );
+
+  if (!pic) return res.sendStatus(409);
+  let picIndex = users[userIndex].images.findIndex(
+    (pic) => pic.objectnumber === req.body.data
+  );
+  console.log(picIndex);
+ 
+  console.log(users[userIndex].images[picIndex]);
+  /* delete users[userIndex].images[picIndex];  */
+  users[userIndex].images.splice(picIndex,1)
+ 
+
+  fs.writeFileSync("./users.json", JSON.stringify(users, null, 4));
+  res.sendStatus(200);
+
+  return res.sendStatus(200);
+});
+
+
+
+
+
+
+
+
 
 
 

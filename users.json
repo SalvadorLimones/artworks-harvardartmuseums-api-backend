@@ -5,54 +5,24 @@
         "password": "12345",
         "images": [
             {
-                "lastupdate": "2022-02-18T05:27:20-0500",
-                "title": "Piazza San Marco, Venice",
-                "classification": "Paintings",
-                "century": "18th century",
-                "culture": "Italian",
-                "dated": "c. 1730-1734",
-                "department": "Department of Paintings, Sculpture & Decorative Arts",
-                "dimensions": "76.2 x 118.8 cm (30 x 46 3/4 in.)\r\nframed: 109.6 x 148.5 cm (43 1/8 x 58 7/16 in.)",
-                "division": "European and American Art",
-                "medium": "Oil on canvas",
-                "period": null,
-                "images": [
-                    {
-                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51173_dynmc",
-                        "alttext": "A large open plaza, in front of a cathedral, and flanked by colonnaded three storey buildings on either side",
-                        "description": "In the foreground, a wide piazza opens, filled with small groups of people coming and going. Directly across it is a large cathedral with a row of tall arches on the front facade, a roof with multiple domes topped with crosses, and at right, a spire that rises several times taller than all buildings around it. The spire rises to a platform surrounded by columns which are topped with a tall, sharply angled roof on which a winged statue stands. Under a fair, blue sky, the scene is lit by bright sunshine, the building at right casting a short shadow onto the piazza.",
-                        "technique": null
-                    }
-                ],
-                "people": [
-                    {
-                        "displayname": "Giovanni Antonio Canal, called Canaletto"
-                    }
-                ],
-                "worktypes": [
-                    {
-                        "worktype": "painting"
-                    }
-                ]
-            },
-            {
-                "lastupdate": "2022-02-18T05:25:58-0500",
-                "title": "The Gare Saint-Lazare: Arrival of a Train",
+                "lastupdate": "2022-02-21T05:24:40-0500",
+                "title": "Red Boats, Argenteuil",
                 "classification": "Paintings",
                 "century": "19th century",
                 "culture": "French",
-                "dated": "1877",
+                "dated": "1875",
                 "department": "Department of Paintings, Sculpture & Decorative Arts",
-                "dimensions": "83 x 101.3 cm (32 11/16 x 39 7/8 in.)\r\nframed: 110.3 x 127.5 x 9.5 cm (43 7/16 x 50 3/16 x 3 3/4 in.)",
+                "dimensions": "61.8 x 82.5 cm (24 5/16 x 32 1/2 in.)\r\nframed: 91 x 111.2 x 10.2 cm (35 13/16 x 43 3/4 x 4 in.)",
                 "division": "European and American Art",
                 "medium": "Oil on canvas",
-                "period": null,
+                "period": "no data",
+                "objectnumber": "1951.54",
                 "images": [
                     {
-                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231456_dynmc",
-                        "alttext": "Dramatic painting of two locomotives spewing steam at the entrance of a glass roof station.",
-                        "description": "As a train caboose exits on the left, a large black locomotive on the right arrives spewing large puffs of steam that swirl around under the peaked glass roof. A conductor wearing blue uniform and cap stands in the foreground near center, two others step away from the left train near an unoccupied track that curves toward the center of earth-like foreground. Primarily painted in cool blue colors with textured brushstrokes, large city buildings are suggested in the background. People dot the platform on the left. The painting is signed in black in the lower left.",
-                        "technique": null
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231457_dynmc",
+                        "alttext": "Painting of a sublime placid sunny scene of small sail boats on the water near green land on the left.",
+                        "description": " Most of the sail boats have their sails down as they float on calm water in this blue-sky day. A terra-cotta colored boat right of center faces us, reflecting its color into the water. Green land situated on the left includes a dock, and a house with terra-cotta roof partially obscured by three thin tall trees, also reflecting into the water. A few white puffy clouds drift by on the right, a shear blue-grey mist hovers over the horizon dotted by green trees in the distance. Five white water birds float on the left close to shore.",
+                        "technique": "no data"
                     }
                 ],
                 "people": [
@@ -64,26 +34,11 @@
                     {
                         "worktype": "painting"
                     }
-                ]
+                ],
+                "tag": "zkjzkgj",
+                "comment": "jhkjkuhj",
+                "stars": 4
             }
         ]
-    },
-    {
-        "username": "teszt2",
-        "email": "teszt2@gmail.com",
-        "password": "12345",
-        "images": []
-    },
-    {
-        "username": "teszt66",
-        "email": "teszt66@gmail.com",
-        "password": "12345",
-        "images": []
-    },
-    {
-        "username": "user67",
-        "email": "user67@user.com",
-        "password": "user67",
-        "images": []
     }
 ]

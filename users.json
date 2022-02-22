@@ -40,5 +40,114 @@
                 "stars": 4
             }
         ]
+    },
+    {
+        "username": "teszt666",
+        "email": "teszt666@gmail.com",
+        "password": "12345",
+        "images": [
+            {
+                "lastupdate": "2022-02-22T05:25:28-0500",
+                "title": "The Gare Saint-Lazare: Arrival of a Train",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "French",
+                "dated": "1877",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "83 x 101.3 cm (32 11/16 x 39 7/8 in.)\r\nframed: 110.3 x 127.5 x 9.5 cm (43 7/16 x 50 3/16 x 3 3/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1951.53",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231456_dynmc",
+                        "alttext": "Dramatic painting of two locomotives spewing steam at the entrance of a glass roof station.",
+                        "description": "As a train caboose exits on the left, a large black locomotive on the right arrives spewing large puffs of steam that swirl around under the peaked glass roof. A conductor wearing blue uniform and cap stands in the foreground near center, two others step away from the left train near an unoccupied track that curves toward the center of earth-like foreground. Primarily painted in cool blue colors with textured brushstrokes, large city buildings are suggested in the background. People dot the platform on the left. The painting is signed in black in the lower left.",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Claude Monet"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "$htdtfghrtgh",
+                "stars": 4
+            },
+            {
+                "lastupdate": "2022-02-22T05:24:19-0500",
+                "title": "Bahram Gur Fights the Horned Wolf (painting, verso; text, recto), illustrated folio from a manuscript of the Great Ilkhanid Shahnama (Book of Kings)",
+                "classification": "Manuscripts",
+                "century": "14th century",
+                "culture": "Persian",
+                "dated": "c. 1335",
+                "department": "Department of Islamic & Later Indian Art",
+                "dimensions": "folio: 41.5 x 30 cm (16 5/16 x 11 13/16 in.)",
+                "division": "Asian and Mediterranean Art",
+                "medium": "Ink, colors, gold, and silver on paper",
+                "period": "Ilkhanid period",
+                "objectnumber": "1960.190",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770435",
+                        "alttext": "no data",
+                        "description": "no avalable information",
+                        "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CC 2018 (Macintosh);"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "unknown"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "manuscript folio"
+                    }
+                ],
+                "tag": "$zjtzjtzjt",
+                "stars": 4
+            },
+            {
+                "lastupdate": "2022-02-22T05:26:46-0500",
+                "title": "Odalisque, Slave, and Eunuch",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "French",
+                "dated": "1839-1840",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "72.1 x 100.3 cm (28 3/8 x 39 1/2 in.)\r\nframe: 94.6 x 122.6 x 7.6 cm (37 1/4 x 48 1/4 x 3 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1943.251",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51355_dynmc",
+                        "alttext": "A nude woman reclines on the floor of an ornate room, while servants attend her",
+                        "description": "In a lavish room with ornate tapestries, a young woman with fair skin and long light brown hair lies against cushions on the floor, with only a silk sheet wrapped around her legs. A hookah and a fan at her side, with her arms crossed behind her head, she looks on as a woman at left sits playing a lute like instrument. She wears an ornate headdress, gold jewelry, a floral skirt and a low cut green dress which reveals her right breast. Behind a gold railing, in floral robes and a white headdress, a dark skinned figure stands waiting at right, looking away.",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Jean-Auguste-Dominique Ingres"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "$ukujk",
+                "stars": 3
+            }
+        ]
     }
 ]

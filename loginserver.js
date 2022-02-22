@@ -8,13 +8,18 @@ const port = 3101;
 const cors = require("cors");
 app.use(cors());
 app.use(express.json());
+
 const users = require("./users.json");
+const sessions = {};
+
+
+
 
 app.get("/", (req, res) => {
   res.send(`<h1>Metropolitan artwork API Login Server</h1>`);
 });
 
-app.get("/api/users/", (req, res) => {
+/* app.get("/api/users/", (req, res) => {
   res.json(users);
 });
 
@@ -42,7 +47,10 @@ app.get("/api/users/email/:email", (req, res) => {
       res.json({ password: user.password, id: user.id });
     }
   });
-});
+}); */
+
+
+
 
 app.post("/api/user/reg", (req, res) => {
   if (!req.body.username || !req.body.email || !req.body.password) {
@@ -79,21 +87,38 @@ app.post("/api/user/login", (req, res) => {
   );
 
   if (!user) return res.sendStatus(401);
+
+  let sessionId = Math.random().toString();
+  sessions[sessionId] = user;
+  res.json(sessionId);
+  console.log(sessions);
+
+  setTimeout(() => {
+      delete sessions[sessionId];
+      console.log("Session ended");
+  }, 20*1000);
+
+
+
   return res.sendStatus(200);
 });
 
 app.post("/api/picture/save", (req, res) => {
-  const authHeader = req.header("Authorization");
-  if (!authHeader) return res.sendStatus(401);
+  const sessionID = req.header("Authorization");
+  if (!sessionID) return res.sendStatus(401);
 
-  const credentials = authHeader.split("&&&");
-  const username = credentials[0];
-  const password = credentials[1];
+  const sessionUser = sessions[sessionID];
+  if (!sessionUser) {
+      return res.sendStatus(401);
+  }
+  console.log(sessionUser);
+  const Susername = sessionUser.username;
+  const Spassword = sessionUser.password;
   let user = users.find(
-    (user) => username === user.username && password === user.password
+    (user) => user.username === Susername && user.password === Spassword
   );
 
-  console.log(user);
+ 
   if (!user) return res.sendStatus(401);
 
   if (!req.body.data) {
@@ -101,8 +126,9 @@ app.post("/api/picture/save", (req, res) => {
   }
 
   user.images.push(req.body.data);
+
   fs.writeFileSync("./users.json", JSON.stringify(users, null, 4));
-  res.sendStatus(200);
+
 
   return res.sendStatus(200);
 });
@@ -115,17 +141,21 @@ app.post("/api/picture/save", (req, res) => {
 
 
 app.post("/api/picture/delete", (req, res) => {
-  const authHeader = req.header("Authorization");
-  if (!authHeader) return res.sendStatus(401);
+  const sessionID = req.header("Authorization");
+  if (!sessionID) return res.sendStatus(401);
 
-  const credentials = authHeader.split("&&&");
-  const username = credentials[0];
-  const password = credentials[1];
+  const sessionUser = sessions[sessionID];
+  if (!sessionUser) {
+      return res.sendStatus(401);
+  }
+  console.log(sessionUser);
+  const Susername = sessionUser.username;
+  const Spassword = sessionUser.password;
   let userIndex = users.findIndex(
-    (user) => username === user.username && password === user.password
+    (user) => user.username === Susername && user.password === Spassword
   );
   let user = users.find(
-    (user) => username === user.username && password === user.password
+    (user) => user.username === Susername && user.password === Spassword
   );
 
 
@@ -170,17 +200,21 @@ app.post("/api/picture/delete", (req, res) => {
 
 
 app.post("/api/user/galery", (req, res) => {
-  const authHeader = req.header("Authorization");
-  if (!authHeader) return res.sendStatus(401);
+  const sessionID = req.header("Authorization");
+  if (!sessionID) return res.sendStatus(401);
 
-  const credentials = authHeader.split("&&&");
-  const username = credentials[0];
-  const password = credentials[1];
-  let user = users.find(
-    (user) => username === user.username && password === user.password
+  const sessionUser = sessions[sessionID];
+  if (!sessionUser) {
+      return res.sendStatus(401);
+  }
+  console.log(sessionUser);
+  const Susername = sessionUser.username;
+  const Spassword = sessionUser.password;
+  const user = users.find(
+    (user) => user.username === Susername && user.password === Spassword
   );
 
-  console.log(user);
+
   if (!user) return res.sendStatus(401);
 
 

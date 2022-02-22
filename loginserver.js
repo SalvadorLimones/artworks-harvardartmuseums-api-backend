@@ -96,7 +96,7 @@ app.post("/api/user/login", (req, res) => {
   setTimeout(() => {
       delete sessions[sessionId];
       console.log("Session ended");
-  }, 20*1000);
+  }, 60*1000);
 
 
 

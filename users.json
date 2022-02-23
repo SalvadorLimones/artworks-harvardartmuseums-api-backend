@@ -149,5 +149,120 @@
                 "stars": 3
             }
         ]
+    },
+    {
+        "username": "teszt100",
+        "email": "teszt100@gmail.com",
+        "password": "12345",
+        "images": [
+            {
+                "lastupdate": "2022-02-22T05:25:28-0500",
+                "title": "The Gare Saint-Lazare: Arrival of a Train",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "French",
+                "dated": "1877",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "83 x 101.3 cm (32 11/16 x 39 7/8 in.)\r\nframed: 110.3 x 127.5 x 9.5 cm (43 7/16 x 50 3/16 x 3 3/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1951.53",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231456_dynmc",
+                        "alttext": "Dramatic painting of two locomotives spewing steam at the entrance of a glass roof station.",
+                        "description": "As a train caboose exits on the left, a large black locomotive on the right arrives spewing large puffs of steam that swirl around under the peaked glass roof. A conductor wearing blue uniform and cap stands in the foreground near center, two others step away from the left train near an unoccupied track that curves toward the center of earth-like foreground. Primarily painted in cool blue colors with textured brushstrokes, large city buildings are suggested in the background. People dot the platform on the left. The painting is signed in black in the lower left.",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Claude Monet"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "$dfghghedrtf",
+                "stars": 4
+            },
+            {
+                "lastupdate": "2022-02-22T05:26:51-0500",
+                "title": "Pompadour at Her Toilette",
+                "classification": "Paintings",
+                "century": "18th century",
+                "culture": "French",
+                "dated": "1750, with later additions",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "81.2 × 64.9 cm (31 15/16 × 25 9/16 in.)\r\nframe: 99.8 x 84.5 cm (39 5/16 x 33 1/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1966.47",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:771578",
+                        "alttext": "no data",
+                        "description": "no avalable information",
+                        "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop 21.0 (Macintosh);"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "François Boucher"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "$zhhgjk",
+                "stars": 3
+            },
+            {
+                "lastupdate": "2022-02-22T05:25:28-0500",
+                "title": "Red Boats, Argenteuil",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "French",
+                "dated": "1875",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "61.8 x 82.5 cm (24 5/16 x 32 1/2 in.)\r\nframed: 91 x 111.2 x 10.2 cm (35 13/16 x 43 3/4 x 4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1951.54",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231457_dynmc",
+                        "alttext": "Painting of a sublime placid sunny scene of small sail boats on the water near green land on the left.",
+                        "description": " Most of the sail boats have their sails down as they float on calm water in this blue-sky day. A terra-cotta colored boat right of center faces us, reflecting its color into the water. Green land situated on the left includes a dock, and a house with terra-cotta roof partially obscured by three thin tall trees, also reflecting into the water. A few white puffy clouds drift by on the right, a shear blue-grey mist hovers over the horizon dotted by green trees in the distance. Five white water birds float on the left close to shore.",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Claude Monet"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "$hjjkz",
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "username": "teszt22",
+        "email": "teszt22@gmail.com",
+        "password": "12345",
+        "images": []
     }
 ]

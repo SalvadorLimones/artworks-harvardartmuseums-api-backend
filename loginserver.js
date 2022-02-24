@@ -95,7 +95,6 @@ app.post("/api/user/login", (req, res) => {
 
   setTimeout(() => {
       delete sessions[sessionId];
-      console.log("Session ended");
   }, 30*24*60*10*1000);
 
 
@@ -104,6 +103,7 @@ app.post("/api/user/login", (req, res) => {
 });
 
 app.post("/api/picture/save", (req, res) => {
+
   const sessionID = req.header("Authorization");
   if (!sessionID) return res.sendStatus(401);
 
@@ -111,14 +111,15 @@ app.post("/api/picture/save", (req, res) => {
   if (!sessionUser) {
       return res.sendStatus(401);
   }
-  console.log(sessionUser);
+
+
   const Susername = sessionUser.username;
   const Spassword = sessionUser.password;
   let user = users.find(
     (user) => user.username === Susername && user.password === Spassword
   );
 
- 
+
   if (!user) return res.sendStatus(401);
 
   if (!req.body.data) {
@@ -148,7 +149,7 @@ app.post("/api/picture/delete", (req, res) => {
   if (!sessionUser) {
       return res.sendStatus(401);
   }
-  console.log(sessionUser);
+
   const Susername = sessionUser.username;
   const Spassword = sessionUser.password;
   let userIndex = users.findIndex(
@@ -175,10 +176,9 @@ app.post("/api/picture/delete", (req, res) => {
   let picIndex = users[userIndex].images.findIndex(
     (pic) => pic.objectnumber === req.body.data
   );
-  console.log(picIndex);
+
  
-  console.log(users[userIndex].images[picIndex]);
-  /* delete users[userIndex].images[picIndex];  */
+
   users[userIndex].images.splice(picIndex,1)
  
 
@@ -207,7 +207,7 @@ app.post("/api/user/galery", (req, res) => {
   if (!sessionUser) {
       return res.sendStatus(401);
   }
-  console.log(sessionUser);
+
   const Susername = sessionUser.username;
   const Spassword = sessionUser.password;
   const user = users.find(
@@ -221,27 +221,6 @@ app.post("/api/user/galery", (req, res) => {
   res.json( user.images);
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

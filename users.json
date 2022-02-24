@@ -5,100 +5,24 @@
         "password": "12345",
         "images": [
             {
-                "lastupdate": "2022-02-21T05:24:40-0500",
-                "title": "Red Boats, Argenteuil",
-                "classification": "Paintings",
-                "century": "19th century",
-                "culture": "French",
-                "dated": "1875",
-                "department": "Department of Paintings, Sculpture & Decorative Arts",
-                "dimensions": "61.8 x 82.5 cm (24 5/16 x 32 1/2 in.)\r\nframed: 91 x 111.2 x 10.2 cm (35 13/16 x 43 3/4 x 4 in.)",
-                "division": "European and American Art",
-                "medium": "Oil on canvas",
-                "period": "no data",
-                "objectnumber": "1951.54",
-                "images": [
-                    {
-                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231457_dynmc",
-                        "alttext": "Painting of a sublime placid sunny scene of small sail boats on the water near green land on the left.",
-                        "description": " Most of the sail boats have their sails down as they float on calm water in this blue-sky day. A terra-cotta colored boat right of center faces us, reflecting its color into the water. Green land situated on the left includes a dock, and a house with terra-cotta roof partially obscured by three thin tall trees, also reflecting into the water. A few white puffy clouds drift by on the right, a shear blue-grey mist hovers over the horizon dotted by green trees in the distance. Five white water birds float on the left close to shore.",
-                        "technique": "no data"
-                    }
-                ],
-                "people": [
-                    {
-                        "displayname": "Claude Monet"
-                    }
-                ],
-                "worktypes": [
-                    {
-                        "worktype": "painting"
-                    }
-                ],
-                "tag": "zkjzkgj",
-                "comment": "jhkjkuhj",
-                "stars": 4
-            }
-        ]
-    },
-    {
-        "username": "teszt666",
-        "email": "teszt666@gmail.com",
-        "password": "12345",
-        "images": [
-            {
-                "lastupdate": "2022-02-22T05:25:28-0500",
-                "title": "The Gare Saint-Lazare: Arrival of a Train",
-                "classification": "Paintings",
-                "century": "19th century",
-                "culture": "French",
-                "dated": "1877",
-                "department": "Department of Paintings, Sculpture & Decorative Arts",
-                "dimensions": "83 x 101.3 cm (32 11/16 x 39 7/8 in.)\r\nframed: 110.3 x 127.5 x 9.5 cm (43 7/16 x 50 3/16 x 3 3/4 in.)",
-                "division": "European and American Art",
-                "medium": "Oil on canvas",
-                "period": "no data",
-                "objectnumber": "1951.53",
-                "images": [
-                    {
-                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231456_dynmc",
-                        "alttext": "Dramatic painting of two locomotives spewing steam at the entrance of a glass roof station.",
-                        "description": "As a train caboose exits on the left, a large black locomotive on the right arrives spewing large puffs of steam that swirl around under the peaked glass roof. A conductor wearing blue uniform and cap stands in the foreground near center, two others step away from the left train near an unoccupied track that curves toward the center of earth-like foreground. Primarily painted in cool blue colors with textured brushstrokes, large city buildings are suggested in the background. People dot the platform on the left. The painting is signed in black in the lower left.",
-                        "technique": "no data"
-                    }
-                ],
-                "people": [
-                    {
-                        "displayname": "Claude Monet"
-                    }
-                ],
-                "worktypes": [
-                    {
-                        "worktype": "painting"
-                    }
-                ],
-                "tag": "$htdtfghrtgh",
-                "stars": 4
-            },
-            {
-                "lastupdate": "2022-02-22T05:24:19-0500",
-                "title": "Bahram Gur Fights the Horned Wolf (painting, verso; text, recto), illustrated folio from a manuscript of the Great Ilkhanid Shahnama (Book of Kings)",
-                "classification": "Manuscripts",
-                "century": "14th century",
-                "culture": "Persian",
-                "dated": "c. 1335",
-                "department": "Department of Islamic & Later Indian Art",
-                "dimensions": "folio: 41.5 x 30 cm (16 5/16 x 11 13/16 in.)",
+                "lastupdate": "2022-02-23T05:29:49-0500",
+                "title": "Head of a Boar",
+                "classification": "Tools and Equipment",
+                "century": "6th-5th century BCE",
+                "culture": "Etruscan",
+                "dated": "6th-5th century BCE with modern additions",
+                "department": "Department of Ancient and Byzantine Art & Numismatics",
+                "dimensions": "15.3 x 18.6 x 38.2 cm (6 x 7 5/16 x 15 1/16 in.)",
                 "division": "Asian and Mediterranean Art",
-                "medium": "Ink, colors, gold, and silver on paper",
-                "period": "Ilkhanid period",
-                "objectnumber": "1960.190",
+                "medium": "Bronze",
+                "period": "Archaic period to Classical",
+                "objectnumber": "1964.128",
                 "images": [
                     {
-                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770435",
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC251040_dynmc",
                         "alttext": "no data",
                         "description": "no avalable information",
-                        "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CC 2018 (Macintosh);"
+                        "technique": "no data"
                     }
                 ],
                 "people": [
@@ -108,14 +32,14 @@
                 ],
                 "worktypes": [
                     {
-                        "worktype": "manuscript folio"
+                        "worktype": "unknown"
                     }
                 ],
-                "tag": "$zjtzjtzjt",
-                "stars": 4
+                "tag": "#tjhrzj",
+                "stars": 3
             },
             {
-                "lastupdate": "2022-02-22T05:26:46-0500",
+                "lastupdate": "2022-02-23T05:29:43-0500",
                 "title": "Odalisque, Slave, and Eunuch",
                 "classification": "Paintings",
                 "century": "19th century",
@@ -145,18 +69,45 @@
                         "worktype": "painting"
                     }
                 ],
-                "tag": "$ukujk",
+                "tag": "#j,j,j,",
                 "stars": 3
-            }
-        ]
-    },
-    {
-        "username": "teszt100",
-        "email": "teszt100@gmail.com",
-        "password": "12345",
-        "images": [
+            },
             {
-                "lastupdate": "2022-02-22T05:25:28-0500",
+                "lastupdate": "2022-02-24T05:24:29-0500",
+                "title": "Power of Death",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "American",
+                "dated": "c. 1889-1890",
+                "department": "Department of American Paintings, Sculpture & Decorative Arts",
+                "dimensions": "53.7 x 44.1 cm (21 1/8 x 17 3/8 in.)\r\nframe: 76.2 x 67.3 x 7 cm (30 x 26 1/2 x 2 3/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on board",
+                "period": "no data",
+                "objectnumber": "2002.65",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:72811_dynmc",
+                        "alttext": "A figure with a skull-like face grips a tree and carries a tiger, surrounded by animal corpses.",
+                        "description": "A shrouded, emaciated figure with brownish skin and a skull-like face holds a snarling tiger in their left hand. The tiger’s claws are splayed and its tail is curled. In their right hand the figure grips the branch of a withered tree. In front of the figure and tiger is the body of a dead elephant, its head facing left with its trunk extended outward. In the background is a dead lion, a dead camel, other shapes suggesting more animal corpses, and a red setting sun.",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "William Holbrook Beard"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "#gfjh",
+                "stars": 5
+            },
+            {
+                "lastupdate": "2022-02-24T05:26:36-0500",
                 "title": "The Gare Saint-Lazare: Arrival of a Train",
                 "classification": "Paintings",
                 "century": "19th century",
@@ -186,33 +137,33 @@
                         "worktype": "painting"
                     }
                 ],
-                "tag": "$dfghghedrtf",
+                "tag": "#zhjkhgjm",
                 "stars": 4
             },
             {
-                "lastupdate": "2022-02-22T05:26:51-0500",
-                "title": "Pompadour at Her Toilette",
+                "lastupdate": "2022-02-24T05:26:39-0500",
+                "title": "Summer Scene (Bathers)",
                 "classification": "Paintings",
-                "century": "18th century",
+                "century": "19th century",
                 "culture": "French",
-                "dated": "1750, with later additions",
+                "dated": "1869-1870",
                 "department": "Department of Paintings, Sculpture & Decorative Arts",
-                "dimensions": "81.2 × 64.9 cm (31 15/16 × 25 9/16 in.)\r\nframe: 99.8 x 84.5 cm (39 5/16 x 33 1/4 in.)",
+                "dimensions": "160 x 160.7 cm (63 x 63 1/4 in.)\r\nframe: 192.1 x 192.4 x 12.4 cm (75 5/8 x 75 3/4 x 4 7/8 in.)",
                 "division": "European and American Art",
                 "medium": "Oil on canvas",
                 "period": "no data",
-                "objectnumber": "1966.47",
+                "objectnumber": "1937.78",
                 "images": [
                     {
-                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:771578",
-                        "alttext": "no data",
-                        "description": "no avalable information",
-                        "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop 21.0 (Macintosh);"
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS30109_dynmc",
+                        "alttext": "A group of young men swim in the water, relax in the grass, and wrestle.",
+                        "description": "A group of young men in their bathing suits are swimming in a body of water located in the foreground of the scene.  On the right-hand side of the foreground, one man is pulling another out of the water, and on the left, a man leans against a tree.  A man relaxing in the grass is watching two people wrestling.  In the background, a man is removing his shirt and tossing his jacket in a pile of clothing on the ground.   There are several tall, thin trees in the scene, and the sky is bright blue with a few clouds.",
+                        "technique": "Kodak EPY"
                     }
                 ],
                 "people": [
                     {
-                        "displayname": "François Boucher"
+                        "displayname": "Jean Frédéric Bazille"
                     }
                 ],
                 "worktypes": [
@@ -220,11 +171,11 @@
                         "worktype": "painting"
                     }
                 ],
-                "tag": "$zhhgjk",
-                "stars": 3
+                "tag": "#zjkuzhj",
+                "stars": 4
             },
             {
-                "lastupdate": "2022-02-22T05:25:28-0500",
+                "lastupdate": "2022-02-24T05:26:36-0500",
                 "title": "Red Boats, Argenteuil",
                 "classification": "Paintings",
                 "century": "19th century",
@@ -254,15 +205,179 @@
                         "worktype": "painting"
                     }
                 ],
-                "tag": "$hjjkz",
-                "stars": 5
+                "tag": "#gjfgjhf",
+                "stars": 3
+            },
+            {
+                "lastupdate": "2022-02-24T05:26:40-0500",
+                "title": "Rock of Ages",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "American",
+                "dated": "1876",
+                "department": "Department of American Paintings, Sculpture & Decorative Arts",
+                "dimensions": "123.3 x 70.5 cm (48 9/16 x 27 3/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1895.695",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231914_dynmc",
+                        "alttext": "no data",
+                        "description": "no avalable information",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Johannes Adam Simon Oertel"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": "#gfhghgfh",
+                "stars": 3
+            },
+            {
+                "lastupdate": "2022-02-24T05:28:04-0500",
+                "title": "The Rehearsal",
+                "classification": "Paintings",
+                "century": "19th century",
+                "culture": "French",
+                "dated": "c. 1873-1878",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "47.2 x 61.5 cm (18 9/16 x 24 3/16 in.)\r\nframed: 71.9 x 87.2 x 11.2 cm (28 5/16 x 34 5/16 x 4 7/16 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1951.47",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC252086_dynmc",
+                        "alttext": "A ballet dance studio with several young girls in white tutus are gathered on the left.",
+                        "description": "A small group of dancers take the same pose in the middle ground, while four others in various poses stand along the back wall. The dancers’ tutus are tied in the back with pink or light blue ribbons, their hair is tied up and they wear a black ribbon around the neck. A man in a dark suit sits on the left playing a violin. The studio interior is lit by natural light from tall windows which beautifully illuminate the tutus and empty space of the floor on the right. Non-descript buildings and green shrubs are seen beyond the windows.",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "Hilaire-Germain-Edgar Degas"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": [],
+                "stars": 0
+            },
+            {
+                "lastupdate": "2022-02-24T05:28:00-0500",
+                "title": "Light Prop for an Electric Stage (Light-Space Modulator)",
+                "classification": "Sculpture",
+                "century": "20th century",
+                "culture": "German",
+                "dated": "1930",
+                "department": "Busch-Reisinger Museum",
+                "dimensions": "151.1 × 69.9 × 69.9 cm (59 1/2 × 27 1/2 × 27 1/2 in.)",
+                "division": "Modern and Contemporary Art",
+                "medium": "Aluminum, steel, nickel-plated brass, other metals, plastic, wood and electric motor",
+                "period": "no data",
+                "objectnumber": "BR56.5",
+                "images": [
+                    {
+                        "baseimageurl": "/public/no-profile-picture.png",
+                        "alttext": "no data",
+                        "description": "no avalable information",
+                        "technique": "no data"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "László Moholy-Nagy"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "sculpture"
+                    }
+                ],
+                "tag": [],
+                "stars": 0
+            },
+            {
+                "lastupdate": "2022-02-24T05:25:25-0500",
+                "title": "Bahram Gur Fights the Horned Wolf (painting, verso; text, recto), illustrated folio from a manuscript of the Great Ilkhanid Shahnama (Book of Kings)",
+                "classification": "Manuscripts",
+                "century": "14th century",
+                "culture": "Persian",
+                "dated": "c. 1335",
+                "department": "Department of Islamic & Later Indian Art",
+                "dimensions": "folio: 41.5 x 30 cm (16 5/16 x 11 13/16 in.)",
+                "division": "Asian and Mediterranean Art",
+                "medium": "Ink, colors, gold, and silver on paper",
+                "period": "Ilkhanid period",
+                "objectnumber": "1960.190",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770435",
+                        "alttext": "no data",
+                        "description": "no avalable information",
+                        "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CC 2018 (Macintosh);"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "unknown"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "manuscript folio"
+                    }
+                ],
+                "tag": [],
+                "stars": 0
+            },
+            {
+                "lastupdate": "2022-02-24T05:28:04-0500",
+                "title": "Pompadour at Her Toilette",
+                "classification": "Paintings",
+                "century": "18th century",
+                "culture": "French",
+                "dated": "1750, with later additions",
+                "department": "Department of Paintings, Sculpture & Decorative Arts",
+                "dimensions": "81.2 × 64.9 cm (31 15/16 × 25 9/16 in.)\r\nframe: 99.8 x 84.5 cm (39 5/16 x 33 1/4 in.)",
+                "division": "European and American Art",
+                "medium": "Oil on canvas",
+                "period": "no data",
+                "objectnumber": "1966.47",
+                "images": [
+                    {
+                        "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:771578",
+                        "alttext": "no data",
+                        "description": "no avalable information",
+                        "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop 21.0 (Macintosh);"
+                    }
+                ],
+                "people": [
+                    {
+                        "displayname": "François Boucher"
+                    }
+                ],
+                "worktypes": [
+                    {
+                        "worktype": "painting"
+                    }
+                ],
+                "tag": [],
+                "stars": 0
             }
         ]
-    },
-    {
-        "username": "teszt22",
-        "email": "teszt22@gmail.com",
-        "password": "12345",
-        "images": []
     }
 ]
